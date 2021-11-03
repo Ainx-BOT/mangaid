@@ -1,7 +1,7 @@
 # mangaid
 Download manga dari situs mangaid
-![Screenshot_20211103-155722439](https://user-images.githubusercontent.com/52388234/140033907-e5abb1ab-bccd-44a6-b44b-5173bb582183.jpg)
-![Screenshot_20211103-155749080](https://user-images.githubusercontent.com/52388234/140033914-6dcf882b-a53e-4017-bf8d-693b7560b180.jpg)
+![20211103_200304~2](https://user-images.githubusercontent.com/52388234/140065129-1bfb990c-d66b-466d-a729-672a5efa4538.jpg)
+![Screenshot_20211103-195939851~2](https://user-images.githubusercontent.com/52388234/140065160-d502233c-27f0-44fb-8718-10ce21ddf463.jpg)
 
 # Cara Install
 
