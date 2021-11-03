@@ -78,7 +78,7 @@ if __name__=="__main__":
      print(f"{W}[{G}INFO{W}]\033[00mTotal Chapter :{G} {tot[0][2]}")
      print(f"{B}==================================================\033[00m")
      try:
-         ch=input(f"{W}[{G}CHAPTER{W}]\033[00mPilih nomor : {G}")
+         ch=input(f"{W}[{G}CHAPTER{W}]\033[00mPilih : {G}")
          ch=int(ch)
      except ValueError:
          print(f"{W}[{R}INFO{W}]\033[00mPilih sesuai nomor{R}!!\033[00m")
@@ -112,8 +112,7 @@ if __name__=="__main__":
          name=x[0]
          if not "https:" in urls:
               urls="https:"+urls
-         resp=requests.get(urls) 
-         size=round(int(resp.headers.get("Content-Length"))/1024)   
+         resp=requests.get(urls)
          with open(f"/sdcard/maid/{dir}/{chdir}/{name}.jpg", 'wb') as f: 
               for data in resp.iter_content(chunk_size=1024):        
                   f.write(data)
