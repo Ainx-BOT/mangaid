@@ -90,7 +90,6 @@ if __name__=="__main__":
          f=open("/sdcard/maid/plugins.txt","w")
          f.write("biar ga error!")
      except FileNotFoundError:
-         os.system("termux-setup-storage")
          os.mkdir(os.path.join("/sdcard","maid"))
      try:
          f=open("/sdcard/maid/"+dir+"/plugins.txt","w")
