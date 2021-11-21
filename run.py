@@ -17,7 +17,6 @@ ses.headers["User-Agent"] = "Mozilla/5.0 (Linux; Android 10; Redmi 4A) AppleWebK
 result=[]
 ch_result=[]
 last_result=[]
-page_img=[]
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
 def baner():
